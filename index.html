@@ -263,19 +263,18 @@
   </section>
 
   <!-- Demo Video Section -->
-  <section id="demo" class="hero-media reveal in" data-reveal>
+  <section id="demo" class="demo-video">
     <h2>Watch the BloomPath Demo</h2>
-    <div class="video-frame">
-      <div class="video-holder">
-        <video
-          controls
-          playsinline
-          poster="images/bloompath-poster.jpg"  <!-- optional thumbnail -->
-        >
-          <source src="media/bloompath-demo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <div class="demo-video__frame">
+      <video
+        controls
+        playsinline
+        class="demo-video__player"
+      >
+        <!-- adjust path if your mp4 is somewhere else -->
+        <source src="media/bloompath-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </section>
 

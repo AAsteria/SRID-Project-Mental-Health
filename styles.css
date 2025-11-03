@@ -651,45 +651,36 @@ textarea {
   margin-bottom: 1rem;
 }
 
-.hero-media {
+/* Demo video section */
+.demo-video {
   text-align: center;
   padding: 80px 20px;
   background-color: #f8f9fb;
 }
 
-.hero-media h2 {
+.demo-video h2 {
   font-size: 2rem;
   margin-bottom: 24px;
   font-weight: 600;
   color: #1c1c1c;
 }
 
-.video-frame {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.video-holder {
-  position: relative;
-  width: 100%;
+/* Outer frame for centering and card look */
+.demo-video__frame {
   max-width: 900px;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
+  margin: 0 auto;
   border-radius: 16px;
+  overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-.video-holder video {
-  position: absolute;
-  inset: 0;
+/* Make video fill the card nicely */
+.demo-video__player {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 16px;
+  height: auto;
 }
+
 
 @media (max-width: 600px) {
   .nav {
