@@ -448,6 +448,12 @@ a {
   color: var(--gray-600);
 }
 
+.app-preview {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+}
+
 .signup {
   display: flex;
   justify-content: center;
@@ -655,7 +661,6 @@ textarea {
 .demo-video {
   text-align: center;
   padding: 80px 20px;
-  background-color: #f8f9fb;
 }
 
 .demo-video h2 {
@@ -701,3 +706,4 @@ textarea {
     flex-direction: column;
   }
 }
+

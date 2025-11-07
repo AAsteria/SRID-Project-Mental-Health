@@ -31,7 +31,7 @@
     </nav>
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Grow Stronger Together</h1>
+        <h1>Grow Stronger in Mind and Well-Being</h1>
         <p>
           BloomPath brings young professionals and therapists into one vibrant garden.
           Generate your AI plant avatar, find the right support, and watch every session blossom into progress.
@@ -45,7 +45,52 @@
           <span>Built for compassionate therapists</span>
         </div>
       </div>
-      <div class="hero-illustration">
+          <!-- Demo Video Section -->
+      <div id="demo" class="demo-video">
+    <h2>Watch the BloomPath Demo</h2>
+    <div class="demo-video__frame">
+      <video
+        controls
+        playsinline
+        class="demo-video__player"
+      >
+        <!-- adjust path if your mp4 is somewhere else -->
+        <source src="media/bloompath-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+      </section>
+    </div>
+  </header>
+
+    <section id="signup" class="signup">
+    <div class="signup-card">
+      <h2>Request a Demo or Quick Sign Up</h2>
+      <p>Join the BloomPath beta to cultivate well-being together.</p>
+      <form class="signup-form">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Work Email" required />
+        </div>
+        <div class="form-row">
+          <select required>
+            <option value="" disabled selected>I'm a...</option>
+            <option>Young Professional</option>
+            <option>Therapist</option>
+          </select>
+          <input type="text" placeholder="Company / Practice" />
+        </div>
+        <textarea rows="3" placeholder="Tell us what you'd love to grow"></textarea>
+        <button type="submit" class="btn primary full">Request Access</button>
+      </form>
+      <div class="trust-badge">
+        <span>🌱 Launching with 50+ forward-thinking clinics & teams</span>
+      </div>
+    </div>
+  </section>
+  
+  <section id = "app-preview" class="app-preview">
+  <div class="hero-illustration">
         <div class="app-slider" aria-label="BloomPath app previews">
           <div class="app-slider__slide">
             <div class="app-screen app-screen--dashboard">
@@ -175,34 +220,7 @@
           <h3>Therapist's Garden</h3>
           <p>Track each client's growth and spot who needs extra care at a glance.</p>
         </div>
-      </div>
-    </div>
-  </header>
-
-  <section id="signup" class="signup">
-    <div class="signup-card">
-      <h2>Request a Demo or Quick Sign Up</h2>
-      <p>Join the BloomPath beta to cultivate well-being together.</p>
-      <form class="signup-form">
-        <div class="form-row">
-          <input type="text" placeholder="Full Name" required />
-          <input type="email" placeholder="Work Email" required />
-        </div>
-        <div class="form-row">
-          <select required>
-            <option value="" disabled selected>I'm a...</option>
-            <option>Young Professional</option>
-            <option>Therapist</option>
-          </select>
-          <input type="text" placeholder="Company / Practice" />
-        </div>
-        <textarea rows="3" placeholder="Tell us what you'd love to grow"></textarea>
-        <button type="submit" class="btn primary full">Request Access</button>
-      </form>
-      <div class="trust-badge">
-        <span>🌱 Launching with 50+ forward-thinking clinics & teams</span>
-      </div>
-    </div>
+  </div>
   </section>
 
   <section id="features" class="features">
@@ -271,22 +289,6 @@
     </div>
   </section>
 
-  <!-- Demo Video Section -->
-  <section id="demo" class="demo-video">
-    <h2>Watch the BloomPath Demo</h2>
-    <div class="demo-video__frame">
-      <video
-        controls
-        playsinline
-        class="demo-video__player"
-      >
-        <!-- adjust path if your mp4 is somewhere else -->
-        <source src="media/bloompath-demo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </section>
-
   <section class="callout">
     <div class="callout-inner">
       <h2>Bring Color to Mental Wellness</h2>
@@ -306,3 +308,4 @@
   </footer>
 </body>
 </html>
+
